@@ -4,7 +4,6 @@ Vagrant file which will configure two VMs - a DNS Server running BIND and a DNS 
 
 ## TO-DO: 
 
-- Create a Vagrantfile that creates two machines (Server and Client)
 - Create a provisioning script for the Server VM that installs and configures ```DNS Bind``` for the following:
 
 ```
@@ -18,3 +17,8 @@ soa
 
 - Create a provisioning script for the Client that installs ```dig``` if not already installed
 - On the Client VM configure ```/etc/resolv.conf``` to use the server provided by our Server VM 
+
+
+## DONE
+
+- Created a Vagrantfile
