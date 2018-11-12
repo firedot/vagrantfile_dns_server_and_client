@@ -12,7 +12,7 @@ zone `visitbg.local`
 ns
 soa
 
-`www.visitbg.local` -> A / ip -> 10.10.10.10
+`www.visitbg.local` -> A / ip -> 172.28.128.3
 ````
 
 - On the Client VM configure ```/etc/resolv.conf``` to use the server provided by our Server VM 
