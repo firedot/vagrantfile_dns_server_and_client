@@ -1,0 +1,10 @@
+@ IN SOA server.visitbg.local. admin.visitbg.local. (
+2007031001;
+28800;
+604800;
+604800;
+86400
+)
+
+@ IN NS server.visitbg.local.
+3 IN PTR visitbg.local
