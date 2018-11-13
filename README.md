@@ -1,6 +1,11 @@
 # vagrantfile_dns_server_and_client
 Vagrant file which will configure two VMs - a DNS Server running BIND and a DNS client
 
+## HOW TO USE:
+
+- `vagrant up`
+- `vagrant ssh client`
+- `dig www.visitbg.local @172.28.128.3`
 
 ## TO-DO: 
 
