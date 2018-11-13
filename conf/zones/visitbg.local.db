@@ -6,6 +6,8 @@ visitbg.local. IN SOA visitbg.local. admin.visitbg.local. (
 1h ; negative TTL
 )
 
+
+www    IN A 172.28.128.3
 server IN A 172.28.128.3
-client IN A 172.28.128.5
+client IN A 172.28.128.4
 @       IN NS server.visitbg.local.
