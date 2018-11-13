@@ -9,8 +9,6 @@ Vagrant file which will configure two VMs - a DNS Server running BIND and a DNS 
 
 ## TO-DO: 
 
-- On the Client VM configure ```/etc/resolv.conf``` to use the server provided by our Server VM 
-
 
 ## DONE
 
@@ -18,3 +16,4 @@ Vagrant file which will configure two VMs - a DNS Server running BIND and a DNS 
 - Create a provisioning script for the Server VM that installs BIND
 - Create a provisioning script for the Client that installs ```dig``` if not already installed
 - Created a script that configures ```BIND``` on ```Server```
+- On the Client VM configure ```/etc/resolv.conf``` to use the server provided by our Server VM 
