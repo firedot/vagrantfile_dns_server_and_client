@@ -1,0 +1,11 @@
+visitbg.local. IN SOA visitbg.local. admin.visitbg.local. (
+12085 ; serial number
+3h ; refresh interval
+30m ; retry interval
+3w ; expiry period 
+1h ; negative TTL
+)
+
+server IN A 172.28.128.3
+client IN A 172.28.128.5
+@       IN NS server.visitbg.local.
